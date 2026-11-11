@@ -1,0 +1,29 @@
+{
+  "global_alpha": "1/4",
+  "streams": {
+    "one": {
+      "p0": "1/4",
+      "q": [
+        "1/2"
+      ],
+      "mixture": [
+        "1"
+      ],
+      "alpha": "1/4"
+    }
+  },
+  "events": [
+    {
+      "event_id": "e1",
+      "stream_id": "one",
+      "sequence": 1,
+      "outcome": 1
+    },
+    {
+      "event_id": "e2",
+      "stream_id": "one",
+      "sequence": 2,
+      "outcome": 1
+    }
+  ]
+}

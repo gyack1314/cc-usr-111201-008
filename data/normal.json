@@ -1,0 +1,89 @@
+{
+  "global_alpha": "1/10",
+  "streams": {
+    "site-a": {
+      "p0": "1/5",
+      "q": [
+        "2/5",
+        "4/5"
+      ],
+      "mixture": [
+        "1/2",
+        "1/2"
+      ],
+      "alpha": "1/20"
+    },
+    "site-b": {
+      "p0": "1/4",
+      "q": [
+        "1/2"
+      ],
+      "mixture": [
+        "1"
+      ],
+      "alpha": "1/20"
+    }
+  },
+  "events": [
+    {
+      "event_id": "site-a-1",
+      "stream_id": "site-a",
+      "sequence": 1,
+      "outcome": 1
+    },
+    {
+      "event_id": "site-a-2",
+      "stream_id": "site-a",
+      "sequence": 2,
+      "outcome": 1
+    },
+    {
+      "event_id": "site-a-3",
+      "stream_id": "site-a",
+      "sequence": 3,
+      "outcome": 0
+    },
+    {
+      "event_id": "site-a-4",
+      "stream_id": "site-a",
+      "sequence": 4,
+      "outcome": 1
+    },
+    {
+      "event_id": "site-a-5",
+      "stream_id": "site-a",
+      "sequence": 5,
+      "outcome": 0
+    },
+    {
+      "event_id": "site-a-6",
+      "stream_id": "site-a",
+      "sequence": 6,
+      "outcome": 0
+    },
+    {
+      "event_id": "site-b-1",
+      "stream_id": "site-b",
+      "sequence": 1,
+      "outcome": 0
+    },
+    {
+      "event_id": "site-b-2",
+      "stream_id": "site-b",
+      "sequence": 2,
+      "outcome": 1
+    },
+    {
+      "event_id": "site-b-3",
+      "stream_id": "site-b",
+      "sequence": 3,
+      "outcome": 0
+    },
+    {
+      "event_id": "site-b-4",
+      "stream_id": "site-b",
+      "sequence": 4,
+      "outcome": 0
+    }
+  ]
+}
